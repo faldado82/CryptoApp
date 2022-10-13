@@ -1,0 +1,76 @@
+.section-contenedor-monedas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 0; */
+}
+
+/* Contenedor de Monedas */
+.section-monedas{
+    /* width:400px; */
+    /* height:400px; */
+    width: 65rem;
+    /* background-color: rgba(236, 26, 26, 0.444); */
+    /* margin-top:2rem; */
+    /* width: 100%; */
+    /* height:100%; */
+    display: flex;
+    /* gap: 2rem; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+/* Una moneda - Cards */
+.card-moneda{
+    margin-bottom: 2rem;
+    background-color: #3b3364;
+    height: 14rem;
+    width: 20rem;
+    box-shadow:  var(--color-shadow-border);
+    /* margin: auto; */ /* NO VA */
+    /* margin-top: 250px; */
+
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.874rem;
+    flex-direction: column;
+    gap: 6px;
+    transition: ease all 0.5s;  
+}
+
+.card-moneda:hover{
+    box-shadow:  0 0 0.6em #eb733fcb;
+    transition: ease all 0.5s;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    min-width: 80%;
+}
+
+.card-moneda img{
+    width: 60px;
+    border-radius: 50%;
+}
+.pSugerencia{
+    font-size: 20px;
+    margin-bottom: 0.2rem;
+}
+.card-valores-precio{
+    text-align: center;
+}
+.card-valores-precio span {
+    color: #eb733f;
+}
+
+#sectionIDMonedas h3{
+    margin-top:-2.5rem;
+}
+

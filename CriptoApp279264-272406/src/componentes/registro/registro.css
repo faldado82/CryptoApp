@@ -1,0 +1,52 @@
+.registro-container{
+    background-color: #3b3364;
+    border-radius: 20px;
+    max-width: 470px;
+    min-height: 600px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow:  -0.1em 0 0.6em #eb733fcb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    margin-bottom:2.5rem;
+}
+
+.registro-container h3{
+    text-align: center;
+}
+
+.registro-container small{
+    font-size: 0.8em;
+    color: #eb733f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+.contenedor-botonP{
+    display: flex;
+    
+    gap: 1.4rem;
+    margin-top: 25px;
+   
+}
+.contenedor-botonP p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedor-botonP p a{
+    text-decoration: none;
+    color: #eb733f;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contenedor-botonP p a:hover{
+    color: rgb(249, 191, 160);
+   transition: all 0.5s;
+}
+

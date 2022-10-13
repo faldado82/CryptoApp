@@ -1,0 +1,85 @@
+.section-contenedor-trn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 0; */
+}
+
+#tblTRN {
+    /* margin-left: 80px; */
+    /* SACAR ES PARA VER NOMAS */
+    /* max-width: 80%; */
+    color: white;
+    background-color: #3b3364;
+    border-radius: 20px;
+    box-shadow: -0.1em 0 0.6em #eb733fcb;
+    padding:20px;
+    width: 65rem;
+    height: 100%;
+    text-align: center;
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.581);
+}
+
+.section-contenedor-trn thead th {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding-bottom: 15px;
+    text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.581);
+}
+
+
+.section-contenedor-trn td {
+    border: 1px solid var(--color-input-placeholder-letra);
+    font-size: 1.2rem;
+    padding: 15px;
+}
+.section-contenedor-trn tr{
+    transition: ease 0.5s all;
+
+}
+.section-contenedor-trn tbody tr:hover{
+    background-color: rgba(249, 191, 160, 0.065);
+    transition: ease 0.5s all;
+    
+}
+
+
+#tblTRN img {
+    border-radius: 50%;
+    box-shadow: -0.1em 0 0.6em #eb733fcb;
+}
+
+/* .thTRN {
+    color: #eb733f;
+    text-transform: uppercase;
+} */
+
+.comprar{
+    color:#40cf74;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.vender{
+    color:#eb733f;
+    font-size: 1.5rem;
+   
+}
+
+.tdUnaTrn span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.spanVender{
+    margin-right: 0.9rem; 
+}
+
+#trn{
+    height: 100%;
+    padding-top: 7rem;
+    padding-bottom:6rem;
+}

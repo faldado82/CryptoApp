@@ -1,0 +1,33 @@
+.contenedor-login {
+    background-color: var(--color-fondo-variant);
+    width: 470px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow:  -0.1em 0 0.6em var(--color-boxShadow);
+    margin: auto;
+    margin-top: 15rem;
+    margin-bottom: 6.6rem;
+}
+
+.contbutonp{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5%; 
+}
+
+.contenedor-login h3{
+    text-align: center;
+}
+
+.contbutonp p a{
+    text-decoration: none;
+    color: var(--color-fondoBtn-text);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.contbutonp p a:hover{
+    color: var(--color-hoverTxt);
+    transition: all 0.5s;
+}
+
